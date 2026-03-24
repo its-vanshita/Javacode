@@ -3,7 +3,8 @@ class Mobile{
 	int price;
 	String network;
 	static String name;
-	
+
+	// using static block we can initialize static variables.
 	static {
 		name="Phone";
 		System.out.println("in static block");
