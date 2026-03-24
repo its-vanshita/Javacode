@@ -10,7 +10,7 @@ class Mobile{
 	}
 	
 }
-
+// static variable are accessed using class name itself.
 public class Demo {
 	public static void main(String[] args) 
 	{
