@@ -27,7 +27,7 @@ class Mobile{
 public class Demo {
 	public static void main(String[] args) throws ClassNotFoundException
 	{
-		
+		// This line dynamically loads the Mobile class into the JVM at runtime without creating any object.
 		Class.forName("Mobile");
 		
 //		Mobile obj1=new Mobile();
