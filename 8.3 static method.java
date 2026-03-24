@@ -8,7 +8,7 @@ class Mobile{
 	public void show() {
 		System.out.println(brand+" : "+price+" : "+name);
 	}
-	
+	// we can't access instance variable directly inside static method to access instance varibales we have to give object as a parameter to use instance variables.
 	public static void show1(Mobile obj)
 	{
 //		System.out.println("in static method");
@@ -36,7 +36,8 @@ public class Demo {
 		
 		obj1.show();
 		obj2.show();
-		
+
+		// we can access static methods using class name and pass object to access assigned variable of obj1.
 		Mobile.show1(obj1);
 		
 		//System.out.println(obj1.brand);
